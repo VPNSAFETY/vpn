@@ -1,6 +1,8 @@
 {
   "ovpn_file":[
-    {"id":0,"file":"client
+    {"id":0,"file":"
+cipher AES-256-CBC
+client
 server-poll-timeout 4
 nobind
 remote 54.253.242.24 1194 udp
@@ -89,9 +91,7 @@ Je+gJmd2uMfxHtfylzpoumYAhZ6IWBfy70N0twwtLJVGYjOGKRvx8Dp+eiFbQx2f
 -----END PRIVATE KEY-----
 </key>
 <tls-crypt>
-#
-# 2048 bit OpenVPN static key (Server Agent)
-#
+
 -----BEGIN OpenVPN Static key V1-----
 57facbae6ec78ea0b7e28ff52b97255f
 5232c7992873c6c590f90adb3a193e96
@@ -110,6 +110,6 @@ b7ce892f1bc6e9d645b5ef9ecc2bab12
 3355cfcb24d21bc4802520a358b6e414
 b0e522837a0c7168bbd9236cded6a543
 -----END OpenVPN Static key V1-----
-</tls-crypt>"},
-{"id":1,"file":""}]
+</tls-crypt>"}
+]
 }
